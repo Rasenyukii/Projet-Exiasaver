@@ -16,7 +16,7 @@ int dynam=0;
 
 if (a==1)
 {
-system ("./Statik");
+system ("./ExiaStatik");
     FILE *statiq;
     statiq=fopen ("/home/rasenyuki/Projet/statik.txt","r");
     fscanf (statiq, "%d", &stati);
@@ -29,7 +29,7 @@ system ("./Statik");
 
 else if (a==2)
 {
-system ("./Dynamique");
+system ("./ExiaDyna");
     FILE *dyna;
     dyna=fopen ("/home/rasenyuki/Projet/Dynami.txt","r");
     fscanf (dyna, "%d", &dynam);
