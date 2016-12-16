@@ -96,8 +96,8 @@ int main()
            
         }
  
-    c = 10; // on initialise la variable c a 10 //
-    d = 1;// on initialise la variable d a 1 //
+    c = 27; // on initialise la variable c a 10 //
+    d = 62;// on initialise la variable d a 1 //
     gotoxy(d, c); // on initialise le placement de l'image //
       while (a != 1000)  // initialisation de la boucle //
         {
@@ -177,8 +177,8 @@ int main()
             jojo = fopen("/home/rasenyuki/plop/neuf.pbm","r");// on ouvre l'image neuf en .PBM //
         }
  
-    c = 10;// on initialise la variable c à 10 et la variable d à 8//
-    d = 8;
+    c = 27;// on initialise la variable c à 10 et la variable d à 8//
+    d = 71;
     gotoxy(d, c);// on initialise le placement de l'image //
     while (b != 1000)
        
@@ -218,8 +218,8 @@ int main()
  
  
     point = fopen("/home/rasenyuki/plop/2point.pbm","r"); // on ouvre l'image des deux points qui sépare les heurs des minutes en .PBM//
-    c = 10;// on initialise la variable c à 10 et la variable d à 16//
-    d = 16;
+    c = 27;// on initialise la variable c à 10 et la variable d à 16//
+    d = 80;
     gotoxy(d, c);//on initialise le placement de l'image //
     while (h != 1000)
         {
@@ -282,8 +282,8 @@ int main()
             toko = fopen("/home/rasenyuki/plop/cinque.pbm","r");//on ouvre l'image cinque //
         }
  
-    c = 10;// on initialise la variable c à 10 et la variable d à 25//
-    d = 25;
+    c = 27;// on initialise la variable c à 10 et la variable d à 25//
+    d = 84;
     gotoxy(d, c);//on initialise le placement de l'image //
  
     while (q != 1000)
@@ -362,8 +362,8 @@ int main()
             muda = fopen("/home/rasenyuki/plop/neuf.pbm","r");//on ouvre l'image neuf //
         }
  
-    c = 10;// on initialise la variable c à 10 et la variable d à 34//
-    d = 34;
+    c = 27;// on initialise la variable c à 10 et la variable d à 34//
+    d = 93;
     gotoxy(d, c);//on initialise le placement de l'image //
     while (s != 1000)
        
@@ -402,8 +402,8 @@ int main()
     fclose(muda);// on ferme l'image//
    
     point2 = fopen("/home/rasenyuki/plop/2point.pbm","r");// on ouvre l'image des deux points qui sépare les minutes des secondes en .PBM//
-    c = 10;// on initialise la variable c à 10 et la variable d à 43//
-    d = 43;
+    c = 27;// on initialise la variable c à 10 et la variable d à 43//
+    d = 102;
     gotoxy(d, c);//on initialise le placement de l'image //
     while (j != 1000)
         {
@@ -467,8 +467,8 @@ int main()
         }
  
  
-    c = 10;// on initialise la variable c à 10 et la variable d à 52//
-    d = 52;
+    c = 27;// on initialise la variable c à 10 et la variable d à 52//
+    d = 111;
     gotoxy(d, c);//on initialise le placement de l'image //
     while (f != 1000)
        
@@ -547,8 +547,8 @@ int main()
             pichu = fopen("/home/rasenyuki/plop/neuf.pbm","r");//on ouvre l'image neuf //
         }
  
-    c = 10;// on initialise la variable c à 10 et la variable d à 61//
-    d = 61;
+    c = 27;// on initialise la variable c à 10 et la variable d à 61//
+    d = 120;
     gotoxy(d, c);//on initialise le placement de l'image //
     while (g != 1000)
        
@@ -588,6 +588,9 @@ int main()
     printf("\n");// on descend la phrase " Veuillez attendre quelques secondes" //
     printf("\n");
     printf("\n");
+    c = 35;
+    d = 67;
+    gotoxy(d, c);
     printf("Veuillez attendre quelques secondes"); // on affiche la phrase " Veuillez attendre quelques secondes" //
    
     for(i; i<10; i++)  // on initialise les conditions de i pour pouvoir afficher les points au faire et  à mesure
